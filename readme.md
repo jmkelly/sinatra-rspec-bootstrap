@@ -6,8 +6,10 @@ To get running, run
 
 git clone git@github.com:jmkelly/sinatra-rspec-bootstrap.git
 
+```
 cd sinatra-rspec-bootstrap
 bundle install
 ruby -rubygems application.rb
+```
 
 Then open http://localhost:4567/
