@@ -1,6 +1,6 @@
 This is a my base setup for Sinatra, Rspec and Twitter Bootstrap.
 
-I use RVM, but if you don't just remove the .rvm file
+I use chruby, but if you don't feel free to remove the .ruby-version and .rvm file (if you aren't using rvm)
 
 To get running, run
 
@@ -8,7 +8,7 @@ To get running, run
 git clone git@github.com:jmkelly/sinatra-rspec-bootstrap.git
 cd sinatra-rspec-bootstrap
 bundle install
-ruby -rubygems application.rb
+ruby application.rb
 ```
 
 Then open http://localhost:4567/
