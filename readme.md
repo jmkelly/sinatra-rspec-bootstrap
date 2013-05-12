@@ -5,7 +5,7 @@ I use chruby, but if you don't feel free to remove the .ruby-version and .rvm fi
 To get running, run
 
 ```
-git clone git@github.com:jmkelly/sinatra-rspec-bootstrap.git
+git clone https://github.com/jmkelly/sinatra-rspec-bootstrap.git
 cd sinatra-rspec-bootstrap
 bundle install
 ruby application.rb
