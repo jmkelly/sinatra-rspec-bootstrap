@@ -1,111 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Bootstrap with Sinatra</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
 
-<!-- Le styles -->
-<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-<style type="text/css">
-body {
-padding-top: 60px;
-padding-bottom: 40px;
-}
-.sidebar-nav {
-padding: 9px 0;
-}
-</style>
-<link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 
-<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link href="/css/cover.css" rel="stylesheet">
 
-<!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="../bootstrap/ico/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../bootstrap/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../bootstrap/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../bootstrap/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="../bootstrap/ico/apple-touch-icon-57-precomposed.png">
-</head>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-<body>
+<div class="site-wrapper">
 
-<div class="navbar navbar-fixed-top">
-<div class="navbar-inner">
-<div class="container-fluid">
-<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</a>
-<a class="brand" href="#">Bootstrap with Sinatra</a>
-<div class="btn-group pull-right">
-<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-<i class="icon-user"></i> Username
-<span class="caret"></span>
-</a>
-<ul class="dropdown-menu">
-<li><a href="#">Profile</a></li>
-<li class="divider"></li>
-<li><a href="#">Sign Out</a></li>
-</ul>
-</div>
-<div class="nav-collapse">
-<ul class="nav">
-<li class="active"><a href="#">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</div><!--/.nav-collapse -->
-</div>
-</div>
-</div>
+  <div class="site-wrapper-inner">
 
-<div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span3">
-      <div class="well sidebar-nav">
-        <ul class="nav nav-list">
-          <li class="nav-header">Sidebar</li>
-          <li class="active"><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li class="nav-header">Sidebar</li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li class="nav-header">Sidebar</li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-      </div><!--/.well -->
-    </div><!--/span-->
-    <div class="span9">
-      <%= yield %>
+    <div class="cover-container">
+
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Cover</h3>
+          <ul class="nav masthead-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="inner cover">
+        <h1 class="cover-heading">Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+        <a href="#" class="btn btn-lg btn-default">Learn more</a>
+        </p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>Built by <a href="http://locationsolve.com">LocationSolve</a></p>
+        </div>
+      </div>
+
     </div>
-    <hr>
-  <footer>
-  <p>&copy; Company 2012</p>
-  </footer>
+
   </div>
 
-</div><!--/.fluid-container-->
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
-
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+
