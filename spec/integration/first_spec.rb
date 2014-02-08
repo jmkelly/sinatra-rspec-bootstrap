@@ -1,19 +1,13 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-
-describe 'Initial Integration Test' do
-      it "defaults to login" do
+describe 'Initial Smoke Test' do
+      it "returns the home page" do
         get '/'
-          last_response.body.should include 'username'
-          last_response.body.should include 'password'
+          last_response.body.should include 'Cover'
+          last_response.body.should include 'Home'
+          last_response.body.should include 'Features'
+          last_response.body.should include 'Contact'
+          last_response.body.should include 'Learn more'
           last_response.should be_ok
       end
 end
-
-describe 'login' do
-    it "shows the login page" do
-        get '/login'
-        last_response.should be_ok
-    end
-end
-
