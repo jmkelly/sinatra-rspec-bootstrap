@@ -1,6 +1,6 @@
 This is a my base setup for Sinatra, Rspec and Twitter Bootstrap.
 
-I use chruby, but if you don't feel free to remove the .ruby-version and .rvm file (if you aren't using rvm)
+I use chruby, but if you don't feel free to remove the .ruby-version
 
 To get running, run
 
