@@ -2,9 +2,9 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 get '/' do
-    erb :login, :layout => :index 
+    erb :landing, :layout => :index 
 end
 
-get '/login' do 
-    erb :login, :layout => :index
+get '/main' do 
+    erb :main, :layout => :index
 end

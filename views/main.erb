@@ -1,0 +1,40 @@
+<div class="container">
+<h1>Sample Marionette Page</h1>
+<h1 id="messages"></h1>
+<div id="main"></div>
+</div> 
+<!-- templates -->
+
+<script type="text/html" id="uploadFormTemplate">
+<div id="uploadForm" class="form">
+<label>Add Document (PDF)</label>
+<input id="fakefileBtn" type="file" style="display:none" multiple accept="application/pdf" />
+<button type="button" class="btn btn-default btn-lg">
+<span  id="fileBtn" class="glyphicon glyphicon-file"></span>
+</button>
+</div>
+</script>
+<script type="text/html" id="notify">
+
+</script>
+
+<script type="text/html" id="searchTemplate">
+<div id="search" class="form">
+<label>Search</label>
+<input type="search" />
+<button type="button" class="btn btn-default btn-lg">
+<span id="fileBtn" class="glyphicon glyphicon-file"></span>
+</button>
+</div>
+</script>
+<script src="/vendor/underscore/underscore.js"></script>
+<script src="/vendor/backbone/backbone.js"></script>
+<script src="/vendor/backbone.marionette/backbone.marionette.js"></script>
+<script src="/vendor/uuid/uuid.js"></script>
+<script src="/site/js/App.js"></script>
+<script src="/site/js/MessageModule.js"></script>
+<script src="/site/js/UploadModule.js"></script>
+<script src="/site/js/DocumentModule.js"></script>
+
+
+
