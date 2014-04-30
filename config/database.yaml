@@ -1,0 +1,23 @@
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  adapter: jdbc
+  user: #test_username 
+  password: #test_password
+  url: #"jdbc:postgresql://localhost/test_database_name"
+
+development:
+  adapter: jdbc
+  user: #dev_username 
+  password: #dev_password
+  url: #"jdbc:postgresql://localhost/dev_database_name"
+
+ 
+production:
+  adapter: jdbc
+  user: #prod_username 
+  password: #prod_password
+  url: #"jdbc:postgresql://localhost/prod_databse_name"
+
+
